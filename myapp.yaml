@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: container
-        image: akilag1997/app:7
+        image: akilag1997/app:latest
         ports:
         - containerPort: 8080
 
