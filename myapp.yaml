@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deploy1
+  name: deploy-ssh
   namespace: akila1456678
 spec:
   selector:
@@ -26,7 +26,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc
+  name: svc-ssh
   namespace: akila1456678
 spec:
   type: LoadBalancer
