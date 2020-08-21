@@ -1,5 +1,5 @@
 # spring-boot-dockerize
-How to Dockerize Spring Boot Application ##AKILANDESWARI
+How to Dockerize Spring Boot Application ##AKILANDESWARI G
 
 # Build Docker Image 
 $ docker build -t spring-boot-docker.jar .
